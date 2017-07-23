@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1FC1731F24C8420013786B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC1721F24C8420013786B /* AppDelegate.swift */; };
+		AF1FC1751F24C8420013786B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC1741F24C8420013786B /* ViewController.swift */; };
+		AF1FC1781F24C8420013786B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1FC1761F24C8420013786B /* Main.storyboard */; };
+		AF1FC17A1F24C8420013786B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1FC1791F24C8420013786B /* Assets.xcassets */; };
+		AF1FC17D1F24C8420013786B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1FC17B1F24C8420013786B /* LaunchScreen.storyboard */; };
+		AF1FC1881F24C8420013786B /* FB_livestream_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC1871F24C8420013786B /* FB_livestream_animationTests.swift */; };
+		AF1FC1931F24C8420013786B /* FB_livestream_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC1921F24C8420013786B /* FB_livestream_animationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF1FC1841F24C8420013786B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1FC1671F24C8420013786B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1FC16E1F24C8420013786B;
+			remoteInfo = "FB-livestream-animation";
+		};
+		AF1FC18F1F24C8420013786B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1FC1671F24C8420013786B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1FC16E1F24C8420013786B;
+			remoteInfo = "FB-livestream-animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF1FC16F1F24C8420013786B /* FB-livestream-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FB-livestream-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1FC1721F24C8420013786B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF1FC1741F24C8420013786B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF1FC1771F24C8420013786B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF1FC1791F24C8420013786B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF1FC17C1F24C8420013786B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF1FC17E1F24C8420013786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1FC1831F24C8420013786B /* FB-livestream-animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB-livestream-animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1FC1871F24C8420013786B /* FB_livestream_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_livestream_animationTests.swift; sourceTree = "<group>"; };
+		AF1FC1891F24C8420013786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1FC18E1F24C8420013786B /* FB-livestream-animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB-livestream-animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1FC1921F24C8420013786B /* FB_livestream_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_livestream_animationUITests.swift; sourceTree = "<group>"; };
+		AF1FC1941F24C8420013786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1FC16C1F24C8420013786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1FC1801F24C8420013786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1FC18B1F24C8420013786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1FC1661F24C8420013786B = {
+			isa = PBXGroup;
+			children = (
+				AF1FC1711F24C8420013786B /* FB-livestream-animation */,
+				AF1FC1861F24C8420013786B /* FB-livestream-animationTests */,
+				AF1FC1911F24C8420013786B /* FB-livestream-animationUITests */,
+				AF1FC1701F24C8420013786B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1FC1701F24C8420013786B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1FC16F1F24C8420013786B /* FB-livestream-animation.app */,
+				AF1FC1831F24C8420013786B /* FB-livestream-animationTests.xctest */,
+				AF1FC18E1F24C8420013786B /* FB-livestream-animationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1FC1711F24C8420013786B /* FB-livestream-animation */ = {
+			isa = PBXGroup;
+			children = (
+				AF1FC1721F24C8420013786B /* AppDelegate.swift */,
+				AF1FC1741F24C8420013786B /* ViewController.swift */,
+				AF1FC1761F24C8420013786B /* Main.storyboard */,
+				AF1FC1791F24C8420013786B /* Assets.xcassets */,
+				AF1FC17B1F24C8420013786B /* LaunchScreen.storyboard */,
+				AF1FC17E1F24C8420013786B /* Info.plist */,
+			);
+			path = "FB-livestream-animation";
+			sourceTree = "<group>";
+		};
+		AF1FC1861F24C8420013786B /* FB-livestream-animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1FC1871F24C8420013786B /* FB_livestream_animationTests.swift */,
+				AF1FC1891F24C8420013786B /* Info.plist */,
+			);
+			path = "FB-livestream-animationTests";
+			sourceTree = "<group>";
+		};
+		AF1FC1911F24C8420013786B /* FB-livestream-animationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1FC1921F24C8420013786B /* FB_livestream_animationUITests.swift */,
+				AF1FC1941F24C8420013786B /* Info.plist */,
+			);
+			path = "FB-livestream-animationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1FC16E1F24C8420013786B /* FB-livestream-animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1FC1971F24C8430013786B /* Build configuration list for PBXNativeTarget "FB-livestream-animation" */;
+			buildPhases = (
+				AF1FC16B1F24C8420013786B /* Sources */,
+				AF1FC16C1F24C8420013786B /* Frameworks */,
+				AF1FC16D1F24C8420013786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FB-livestream-animation";
+			productName = "FB-livestream-animation";
+			productReference = AF1FC16F1F24C8420013786B /* FB-livestream-animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF1FC1821F24C8420013786B /* FB-livestream-animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1FC19A1F24C8430013786B /* Build configuration list for PBXNativeTarget "FB-livestream-animationTests" */;
+			buildPhases = (
+				AF1FC17F1F24C8420013786B /* Sources */,
+				AF1FC1801F24C8420013786B /* Frameworks */,
+				AF1FC1811F24C8420013786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1FC1851F24C8420013786B /* PBXTargetDependency */,
+			);
+			name = "FB-livestream-animationTests";
+			productName = "FB-livestream-animationTests";
+			productReference = AF1FC1831F24C8420013786B /* FB-livestream-animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF1FC18D1F24C8420013786B /* FB-livestream-animationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1FC19D1F24C8430013786B /* Build configuration list for PBXNativeTarget "FB-livestream-animationUITests" */;
+			buildPhases = (
+				AF1FC18A1F24C8420013786B /* Sources */,
+				AF1FC18B1F24C8420013786B /* Frameworks */,
+				AF1FC18C1F24C8420013786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1FC1901F24C8420013786B /* PBXTargetDependency */,
+			);
+			name = "FB-livestream-animationUITests";
+			productName = "FB-livestream-animationUITests";
+			productReference = AF1FC18E1F24C8420013786B /* FB-livestream-animationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1FC1671F24C8420013786B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sb;
+				TargetAttributes = {
+					AF1FC16E1F24C8420013786B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BRJTF7RS9Y;
+						ProvisioningStyle = Automatic;
+					};
+					AF1FC1821F24C8420013786B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BRJTF7RS9Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF1FC16E1F24C8420013786B;
+					};
+					AF1FC18D1F24C8420013786B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BRJTF7RS9Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF1FC16E1F24C8420013786B;
+					};
+				};
+			};
+			buildConfigurationList = AF1FC16A1F24C8420013786B /* Build configuration list for PBXProject "FB-livestream-animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF1FC1661F24C8420013786B;
+			productRefGroup = AF1FC1701F24C8420013786B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1FC16E1F24C8420013786B /* FB-livestream-animation */,
+				AF1FC1821F24C8420013786B /* FB-livestream-animationTests */,
+				AF1FC18D1F24C8420013786B /* FB-livestream-animationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1FC16D1F24C8420013786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1FC17D1F24C8420013786B /* LaunchScreen.storyboard in Resources */,
+				AF1FC17A1F24C8420013786B /* Assets.xcassets in Resources */,
+				AF1FC1781F24C8420013786B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1FC1811F24C8420013786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1FC18C1F24C8420013786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1FC16B1F24C8420013786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1FC1751F24C8420013786B /* ViewController.swift in Sources */,
+				AF1FC1731F24C8420013786B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1FC17F1F24C8420013786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1FC1881F24C8420013786B /* FB_livestream_animationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1FC18A1F24C8420013786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1FC1931F24C8420013786B /* FB_livestream_animationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF1FC1851F24C8420013786B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1FC16E1F24C8420013786B /* FB-livestream-animation */;
+			targetProxy = AF1FC1841F24C8420013786B /* PBXContainerItemProxy */;
+		};
+		AF1FC1901F24C8420013786B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1FC16E1F24C8420013786B /* FB-livestream-animation */;
+			targetProxy = AF1FC18F1F24C8420013786B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF1FC1761F24C8420013786B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1FC1771F24C8420013786B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1FC17B1F24C8420013786B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1FC17C1F24C8420013786B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1FC1951F24C8420013786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1FC1961F24C8420013786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1FC1981F24C8430013786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BRJTF7RS9Y;
+				INFOPLIST_FILE = "FB-livestream-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.FB-livestream-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF1FC1991F24C8430013786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BRJTF7RS9Y;
+				INFOPLIST_FILE = "FB-livestream-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.FB-livestream-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF1FC19B1F24C8430013786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BRJTF7RS9Y;
+				INFOPLIST_FILE = "FB-livestream-animationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.FB-livestream-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB-livestream-animation.app/FB-livestream-animation";
+			};
+			name = Debug;
+		};
+		AF1FC19C1F24C8430013786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BRJTF7RS9Y;
+				INFOPLIST_FILE = "FB-livestream-animationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.FB-livestream-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB-livestream-animation.app/FB-livestream-animation";
+			};
+			name = Release;
+		};
+		AF1FC19E1F24C8430013786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BRJTF7RS9Y;
+				INFOPLIST_FILE = "FB-livestream-animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.FB-livestream-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FB-livestream-animation";
+			};
+			name = Debug;
+		};
+		AF1FC19F1F24C8430013786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BRJTF7RS9Y;
+				INFOPLIST_FILE = "FB-livestream-animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.FB-livestream-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FB-livestream-animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1FC16A1F24C8420013786B /* Build configuration list for PBXProject "FB-livestream-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1FC1951F24C8420013786B /* Debug */,
+				AF1FC1961F24C8420013786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1FC1971F24C8430013786B /* Build configuration list for PBXNativeTarget "FB-livestream-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1FC1981F24C8430013786B /* Debug */,
+				AF1FC1991F24C8430013786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF1FC19A1F24C8430013786B /* Build configuration list for PBXNativeTarget "FB-livestream-animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1FC19B1F24C8430013786B /* Debug */,
+				AF1FC19C1F24C8430013786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF1FC19D1F24C8430013786B /* Build configuration list for PBXNativeTarget "FB-livestream-animationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1FC19E1F24C8430013786B /* Debug */,
+				AF1FC19F1F24C8430013786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1FC1671F24C8420013786B /* Project object */;
+}
