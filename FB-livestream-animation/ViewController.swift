@@ -49,7 +49,7 @@ func customPath() -> UIBezierPath {
     let path = UIBezierPath()
     
     path.move(to: CGPoint(x:0, y:200))  // Starting point for stroking
-    let endPoint = CGPoint(x: 400, y: 200)  // Ending point for stroking
+    let endPoint = CGPoint(x: 500, y: 150)  // Ending point for stroking
     let randomYShifter = 200 + drand48() * 300
     let cp1 = CGPoint(x: 100, y: 100 - randomYShifter)
     let cp2 = CGPoint(x: 200, y: 500 + randomYShifter)
@@ -69,5 +69,7 @@ class CurvedView: UIView {
         path.stroke()
     }
 }
+
+
 
 
